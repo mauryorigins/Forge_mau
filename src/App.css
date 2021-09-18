@@ -1,38 +1,60 @@
-.App {
-  text-align: center;
+/*---------Seccion3 -----------*/
+.Texto1 {
+  font-size: 30px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Texto3 {
+  font-size: 50px;
+  font-weight: bold;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.Texto5 {
+  font-size: 30px;
+}
+
+.ContenedorTexto {
+  padding: 5%;
+}
+
+.ContenedorTexto img {
+  border-radius: 10px;
+  height: 250px;
+}
+
+/*---------Seccion 4 -----------*/
+.Text1 {
+  font-size: 30px;
+}
+
+.Text2 {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.Text3 {
+  font-size: 20px;
+}
+
+.Text4 {
+    font-size: 20px;
   }
+
+.Text5 {
+    font-size: 30px;
+}
+.ContenedorCurso img {
+  margin-left: 25px;
+  border-radius: 10px;
+  height: 350px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+/*---------Botones -----------*/
+
+.ContenedorBotoncitos .ant-btn.ant-btn-link{
+  background-color: rgb(21, 143, 32);
+  border-radius: 15px;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
+/*---------Cards-----------*/
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}

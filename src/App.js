@@ -1,25 +1,17 @@
-import logo from './logo.svg';
+import React from 'react';
+import "antd/dist/antd.css";
 import './App.css';
+//------Components
+import Cards from './Cards/Cards';
+import Seccion3 from './Seccion3/Seccion3'; 
+import Seccion4 from './Seccion4/Seccion4'
 
-function App() {
+export default function forge() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+    <Seccion3 />
+    <Seccion4 />
+    <Cards />
     </div>
   );
 }
-
-export default App;
